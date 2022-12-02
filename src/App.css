@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+}
+
+form {
+  width: 500px;
+  outline: none;
+  border: 0ch;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 10px 10px 10px rgb(73, 73, 73);
+  ;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+
+}
+
+.login h1 {
+  background-color: rgb(216, 215, 215);
+  width: 400px;
+  font-size: 25px;
+  margin: 25px auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(186, 186, 186);
+  color: rgb(106, 106, 106);
+}
+
+input {
+  font-family: 'Lobster',
+    cursive;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: rgb(202, 200, 200);
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+
+}
+
+input:focus {
+
+  box-shadow: 0 0 8px rgb(94, 89, 89);
+
+}
+
+.submit {
+  background-color: rgb(204, 201, 201);
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px rgb(133, 132, 132);
+  color: rgb(103, 103, 103);
+  border: 0;
+  transition: .3s ease-out;
+  font-family: 'Lobster',
+    cursive;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.submit:hover {
+
+  background-color: gray;
   color: white;
+  box-shadow: 8px 8px 8px rgb(160, 158, 158);
+
 }
 
-.App-link {
-  color: #61dafb;
+.submit-google {
+  background-color: rgb(204, 201, 201);
+  width: 400px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 8px rgb(133, 132, 132);
+  color: rgb(103, 103, 103);
+  border: 0;
+  transition: .3s ease-out;
+  font-family: 'Lobster',
+    cursive;
+  margin-bottom: 25px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-google:hover {
+
+  background-color: gray;
+  color: green;
+  box-shadow: 8px 8px 8px rgb(160, 158, 158);
+
 }
